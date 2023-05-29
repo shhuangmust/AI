@@ -1,0 +1,11 @@
+"""利用Open AI embedding技術進行自然語言處理應用
+本程式利用Open AI 提供的embedding函式，將amazon食物評價資料集，轉化成大型語言模型的embedding向量
+轉化後的amazon食物評價資料集embedding向量，可以進行查詢、叢集、分類...等應用
+安裝需要的套件
+openai
+transformers
+tiktoken
+"""
+!pip install openai -U
+!pip install transformers -U
+!pip install tiktoken
